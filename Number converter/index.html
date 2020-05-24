@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Converter</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="icons8-binary-file-64.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="mainboss">
+      <div class="form-row align-items-center">
+        <div class="col-auto my-1">
+          <select class="custom-select mr-sm-2" id="input">
+            <option value="1">Choose...</option>
+            <option value="2">DEC</option>
+            <option value="3">BIN</option>
+            <option value="4">HEX</option>
+            <option value="5">OCT</option>
+          </select>
+        </div>
+        <div>
+          <input
+            id="field"
+            class="form-control"
+            type="text"
+            placeholder="Enter Number"
+          />
+        </div>
+      </div>
+
+      <div class="form-row align-items-center">
+        <div class="col-auto my-1">
+          <select class="custom-select mr-sm-2" id="output">
+            <option value="6">Choose...</option>
+            <option value="7">DEC</option>
+            <option value="8">BIN</option>
+            <option value="9">HEX</option>
+            <option value="10">OCT</option>
+          </select>
+        </div>
+        <div>
+          <div class="d-inline p-2 bg-dark text-white" id="numOut">Output</div>
+        </div>
+      </div>
+      <button type="button" id="convert" class="btn btn-primary btn-sm">
+        Convert
+      </button>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="app.js" defer></script>
+  </body>
+</html>
