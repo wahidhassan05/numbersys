@@ -5,3 +5,4 @@ Things not fixed yet
 ---------------------
 - Cannot do conversions between negative numbers
 - Cannot do conversions between floating point numbers
+- To see how it works please visit this link: https://youtu.be/NdlL7LS9AkI
